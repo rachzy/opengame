@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+#game-board {
+    background-color: #EEE;
+    display: grid;
+    width: 100vmin;
+    height: 100vmin;
+    grid-template-columns: repeat(21, 0.5fr);
+    grid-template-rows: repeat(21, 0.5fr);
+}
+
+.character {
+    background-color: deepskyblue;
+    border: 1px solid black;
+}
+
+
+/* SCENARIOS */
+
+.house {
+    background-color: rgba(179, 89, 5, 0.637);
+    border: 1px solid black;
+}
+
+.garden {
+    background-color: greenyellow;
+    border: 1px solid black;
+}
